@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Building Company</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="public/stylesheets/main.css">
+</head>
+<body>
+<div class="wrapper"><!-- wrapper -->
+
+  <header>
+    <div class="hamburger">
+      <img src="images/menu.svg" alt="">
+    </div>
+    <nav class="top-menu" id="topMenu">
+      <ul>
+        <li class="mainList" ><a href="#">ГЛАВНАЯ</a></li>
+        <li class="mainList" ><a href="#">ВЫСТАВКИ</a></li>
+        <li class="mainList" ><a href="#">КАТАЛОГ КОМПАНИЙ</a></li>
+        <li class="mainList" ><a href="#">НОВОСТИ</a></li>
+        <li class="mainList" ><a href="#">ФОРУМ</a></li>
+        <li class="mainList" ><a href="#">ПАРТНЕРЫ</a></li>
+      </ul>
+    </nav>
+    <section class="our-number">
+      <p>Контактный телефон:</p>
+      <span class="code">8(495)</span><span class="number">67-67-123</span>
+    </section>
+  </header>
+
+  <section class="activities" id="activities">
+    <div class="projecting">
+      <img src="images/projecting.png" alt="">
+      <div>
+        <p class="title">ПРОЕКТИРОВАНИЕ</p>
+        <p class="servises-text">Комплексная разработка</p>
+        <a data-toggle-id = "more" class="moreInfo" href="#">подробнее</a>
+        <div class="particular-Services-div" id="more" hidden>
+          <p class="particular-Services">LoremIpsumDolorLor emIpsu mDolorLore mIpsumDolor Lore mIpsum  DolorLorem  IpsumDolor L oremIps umDol orLoremIpsu mDolorLore mIpsumDol orLoremIps umDolorL oremIpsum DolorLorem IpsumDo lorLorem IpsumD olorL oremIp sum Dolor</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="production">
+       <img src="images/production.png" alt= "">
+       <div>
+         <p class="title">ПРОИЗВОДСТВО</p>
+        <p class="servises-text">Строительные работы</p>
+        <a  class="moreInfo" href="#" data-toggle-id = "moreAboutProduction" >подробнее</a>
+        <div class="particular-Services-div" id="moreAboutProduction" hidden>
+          <p class="particular-Services">LoremIpsumDolorLor emIpsu mDolorLore mIpsumDolor Lore mIpsum  DolorLorem  IpsumDolor L oremIps umDol orLoremIpsu mDolorLore mIpsumDol orLoremIp sumDolor LoremIpsu mDolorLore mIpsumD olorLore mIpsum Dolor LoremI psu mDolor</p></div>
+        </div>
+    </div>
+
+    <div class="mounting">
+      <img src ="images/mounting.png " alt="">
+       <div>
+         <p class="title">МОНТАЖ</p>
+          <p class="servises-text">Монтаж и обслуживание</p>
+          <a class="moreInfo" href="#" data-toggle-id = "moreAboutMounting">подробнее</a>
+          <div class="particular-Services-div" id="moreAboutMounting" hidden>
+          <p class="particular-Services">LoremIpsumDolorLor emIpsu mDolorLore mIpsumDolor Lore mIpsum  DolorLorem  IpsumDolor L oremIps umDol orLoremIpsu mDolorLore mIpsumDol orLoremI psumDolo rLoremIps umDolorLor emIpsum DolorLor emIpsu mDolo rLorem Ips umDolor</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="info-page">
+    <div class="news" >
+      <h3 class="news-title">НОВОСТИ</h3>
+      <div class="news-block" hidden>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+      </div>
+      <div class="news-block-more" id="newsBlockMore">
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+        <p>21.09.2019 | <a href="#">Разработан проект для многоэтажного дома в Москве</a></p>
+      </div>
+      <a class="watch-all" href="#" id="watchAll">Посмотреть все новости</a>
+      <div class="offer">
+        <h2 class="online-order">ОНЛАЙН-ЗАКАЗ</h2>
+        <p class="online-order-text">Вы можете сделать онлайн-заказ или прокoнсультироваться у наших специалистов</p>
+        <button class="online-order-button" id="orderButton">
+          <img src="images/arrow.svg" alt="" class="left-arrow">
+          <img src="images/arrow.svg" alt="" class="right-arrow">
+          <img src="images/stick.svg" alt="" class="stick">
+          <div>
+            <p class="order-title">Заказ</p>
+            <p class="order-text">Нажмите для заказа</p>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="company-info">
+      <h3>О КОМПАНИИ</h3>
+      <div class="aboutUs">
+        <p>Уралстройпортал - ведущий строительный портал Екатеринбурга и Уральского региона, объединяющий интересы строительных компаний, бригад, дизайнеров по интерьеру и поставщиков строительных материалов, инструмента и техники с интересами заказчиков строительной продукции, работ и услуг. Более 8 лет Уралстройпортал активно участвует в информационной жизни строительного рынка Екатеринбурга, Челябинска, Тюмени, предоставляя наиболее востребованную информацию о тендерах, ценах на стройматериалы, технику и оборудование, помогая выбирать надежных партнеров для жилищного, загородного и промышленного строительства, а также решить вопросы ремонта, отделки квартир и офисов.</p>
+      </div>
+      <h2 class="offered-servises">ПРЕДЛАГАЕМЫЕ УСЛУГИ</h2>
+      <div class="servises">
+        <article>
+          <ul class="servises-list">
+            <li><a href="#">Устройство внуутренних инженерных систем</a></li>
+            <li><a href="#">Земляные работы</a></li>
+            <li><a href="#">Работы нулевого цикла</a></li>
+            <li><a href="#">Реставрационные работы</a></li>
+            <li><a href="#">Благоустройство территорий
+            </a></li>
+            <li><a href="#">Усиление конструкций зданий и сооружений</a></li>
+          </ul>
+        </article>
+        <article>
+          <ul class="servises-list">
+            <li><a href="#">Устройство внуутренних инженерных систем</a></li>
+            <li><a href="#">Земляные работы</a></li>
+            <li><a href="#">Работы нулевого цикла</a></li>
+            <li><a href="#">Реставрационные работы</a></li>
+            <li><a href="#">Благоустройство территорий
+            </a></li>
+            <li><a href="#">Усиление конструкций зданий и сооружений</a></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects"> <!-- projects -->
+    <h3>Наши проекты</h3>
+    <section class="carousel">
+      <img src="images/rightarrow.png" id = "prev" alt="" onclick="goBack()">
+
+      <div class="gallery" id="gallery">
+        <ul class="images">
+          <li>
+            <div class="project-example">
+              <img src="images/project.png" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/project.png" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/project.png" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/project.png" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/buildings.jpg" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/buildings.jpg" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+          <li>
+            <div class="project-example">
+              <img src="images/skyscrapers.jpg" alt="">
+              <h4>СТРОЕНИЕ</h4>
+              <p>г. Москва</p>
+              <p>Цена: <b>1.500000</b> руб.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <img src="images/leftarrow.png" id = "next" onclick="goForvard()" alt="">
+    </section>
+      <p class="projects-text">Уралстройпортал - ведущий строительный портал Екатеринбурга и Уральского региона, объединяющий интересы строительных компаний, бригад, дизайнеров по интерьеру и поставщиков строительных материалов, инструмента и техники с интересами заказчиков строительной продукции, работ и услуг. Более 8 лет Уралстройпортал активно участвует в информационной жизни строительного рынка Екатеринбурга, Челябинска, Тюмени, предоставляя наиболее востребованную информацию о тендерах, ценах на стройматериалы, технику и оборудование, помогая выбирать надежных партнеров для жилищного, загородного и промышленного строительства, а также решить вопросы ремонта, отделки квартир и офисов.
+      </p>
+  </div>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">ГЛАВНАЯ</a></li>
+        <li><a href="#">ВЫСТАВКИ</a></li>
+        <li><a href="#">КАТАЛОГ КОМПАНИЙ</a></li>
+        <li><a href="#">НОВОСТИ</a></li>
+        <li><a href="#">ФОРУМ</a></li>
+        <li><a href="#">ПАРТНЕРЫ</a></li>
+        <li><a href="#">О САЙТЕ</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div class="address">
+        <p >Москва 101000, <br>
+          метро павелецкая, ул. Новаторов дом <br>
+          22стр. 1, 2 этаж офис 9
+        </p>
+        <a href="#">Как нас найти</a>
+      </div>
+      <div >
+        <p class="working-hours">Работаем по будням с 10.00 до 19.00</p>
+        <p class="phone">(495) 980-21-65 <br>
+        (495) 901-21-36</p>
+        <p class="site">info@stroyinfo.ru</p>
+      </div>
+      <div class="author-rights">
+        <a href="#">www.stroyinfo.ru</a>
+        <p class="author-rights-text">Сайт строительной компании СтройИнфо</p>
+        <p>© 2000-2012 “Стройинфо”</p>
+      </div>
+    </section>
+  </footer>
+  <div class="test"></div>
+
+
+</div><!-- wrapper -->
+</body>
+<script src="main.js"></script>
+</html>
+
