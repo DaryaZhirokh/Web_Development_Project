@@ -43,7 +43,7 @@
   .main-page h1 {
     font-size: 60px;
     letter-spacing: 3px;
-    line-height: 22px;
+    line-height: 50px;
     color: #ffffff;
     font-family: "Open Sans";
     font-weight: 600;
@@ -76,5 +76,10 @@
   .main-page .main-buttons {
     display: flex;
     justify-content: center; }
+
+.arrowdown {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
 
 /*# sourceMappingURL=main.css.map */
