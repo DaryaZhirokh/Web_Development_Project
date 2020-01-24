@@ -1,0 +1,54 @@
+.main-page {
+  background: url(../../images/background.jpg) no-repeat;
+  background-size: cover;
+  height: 788px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  p {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 105px;
+  }
+
+  .our-services, .hire-button {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: center;
+    width: 220px;
+    height: 70px;
+    border: 3px solid #f8f8f8;
+  }
+
+  .hire-button {
+    background-color: #00897b;
+    border-color: #00897B;
+    margin-left: 25px;
+  }
+
+  .main-buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
