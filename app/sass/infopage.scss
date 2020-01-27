@@ -1,8 +1,12 @@
 .infopage {
-  height: 673px;
+  height: auto;
 
   .row {
     justify-content: center;
+  }
+
+  .row:last-child {
+    margin-bottom: 125px;
   }
 
   h2 {

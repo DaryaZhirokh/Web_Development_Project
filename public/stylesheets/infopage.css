@@ -1,7 +1,9 @@
 .infopage {
-  height: 673px; }
+  height: auto; }
   .infopage .row {
     justify-content: center; }
+  .infopage .row:last-child {
+    margin-bottom: 125px; }
   .infopage h2 {
     font-size: 30px;
     letter-spacing: 2px;

@@ -39,12 +39,12 @@
     width: 220px;
     height: 70px;
     border: 3px solid #f8f8f8;
+    margin-left: 25px;
   }
 
-  .hire-button {
+  .hire-button:hover, .our-services:hover {
     background-color: #00897b;
     border-color: #00897B;
-    margin-left: 25px;
   }
 
   .main-buttons {

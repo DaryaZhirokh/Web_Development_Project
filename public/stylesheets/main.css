@@ -68,11 +68,11 @@
     text-align: center;
     width: 220px;
     height: 70px;
-    border: 3px solid #f8f8f8; }
-  .main-page .hire-button {
-    background-color: #00897b;
-    border-color: #00897B;
+    border: 3px solid #f8f8f8;
     margin-left: 25px; }
+  .main-page .hire-button:hover, .main-page .our-services:hover {
+    background-color: #00897b;
+    border-color: #00897B; }
   .main-page .main-buttons {
     display: flex;
     justify-content: center; }
@@ -83,9 +83,11 @@
   margin-top: 100px; }
 
 .infopage {
-  height: 673px; }
+  height: auto; }
   .infopage .row {
     justify-content: center; }
+  .infopage .row:last-child {
+    margin-bottom: 125px; }
   .infopage h2 {
     font-size: 30px;
     letter-spacing: 2px;
@@ -130,5 +132,95 @@
   margin-left: 28%;
   margin-right: 28%;
   margin-bottom: 123px; }
+
+.services-container {
+  height: 1415px;
+  background-color: #e4fdf9;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .services-container .row {
+    justify-content: center; }
+  .services-container h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 35px; }
+  .services-container p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center; }
+
+.services-item {
+  width: 370px;
+  height: 438px;
+  background-color: #ffffff;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .services-item .services-item-picture {
+    width: 56px;
+    height: 62px;
+    margin-top: 60px;
+    margin-bottom: 38px;
+    background-image: url(../../images/incoming-call.svg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .services-item h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center; }
+  .services-item p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center; }
+  .services-item button {
+    width: 150px;
+    height: 55px;
+    background-color: transparent;
+    border: 2px solid #212121;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center; }
+
+.services-item:hover {
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.35));
+  background-color: #00897b; }
+
+.change-services-item {
+  background-color: #00897b; }
+  .change-services-item .services-item-picture {
+    background-image: url(../../images/smartphone.svg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .change-services-item h4 {
+    color: #ffffff; }
+  .change-services-item p {
+    color: #ffffff; }
+  .change-services-item button {
+    border: 2px solid #ffffff;
+    color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
