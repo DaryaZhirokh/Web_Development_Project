@@ -1,5 +1,5 @@
 .services-container {
-	height: 1415px;
+	height: auto;
 	background-color: #e4fdf9;
 	display: flex;
 	flex-direction: column;
@@ -7,6 +7,10 @@
 
 	.row {
     justify-content: center;
+	}
+
+	.row:last-child {
+		margin-bottom: 125px;
 	}
 
 	h3 {

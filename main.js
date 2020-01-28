@@ -13,7 +13,6 @@ $(document).ready(function(){
 	var serviceItemButton = $(".service-item-button");
 
 	serviceItem.on( "mouseenter mouseleave", function(e) {
-		console.log("1");
 		e.preventDefault()
 		$(this).toggleClass("change-services-item");
 	});
