@@ -4,29 +4,13 @@
 }
 
 .works-title {
+	h2 {
+    @include headTitle;
+  }
 
-	h3 {
-		font-size: 30px;
-		letter-spacing: 2px;
-		line-height: 22px;
-		color: #212121;
-		font-family: "Open Sans";
-		font-weight: 700;
-		text-align: center;
-		margin-top: 123px;
-		margin-bottom: 36px;
-	}
-
-	p {
-		font-size: 15px;
-		letter-spacing: 1px;
-		line-height: 22px;
-		color: #212121;
-		font-family: "Open Sans";
-		font-weight: 400;
-		text-align: center;
-		margin-bottom: 130px;
-	}
+  p {
+     @include headText
+  }
 }
 
 .works-buttons {
@@ -67,6 +51,10 @@
   min-width: 370px;
   position: relative;
   padding: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
 
 	img {
 		z-index: 1;
@@ -84,6 +72,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 370px;
 
 	img {
 	opacity: 0.2;
@@ -120,5 +109,5 @@
 	font-weight: 700;
 	text-align: center;
 	margin-top: 135px;
-	margin-bottom: 135px;
+  margin-bottom: 135px;
 }

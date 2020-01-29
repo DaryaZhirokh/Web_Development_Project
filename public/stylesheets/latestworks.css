@@ -1,100 +1,87 @@
-.row {
-  display: flex;
-  justify-content: center; }
+/*
+Error: Undefined mixin 'headTitle'.
+        on line 8 of app/sass/latestworks.scss, in `headTitle'
+        from line 8 of app/sass/latestworks.scss
 
-.works-title h3 {
-  font-size: 30px;
-  letter-spacing: 2px;
-  line-height: 22px;
-  color: #212121;
-  font-family: "Open Sans";
-  font-weight: 700;
-  text-align: center;
-  margin-top: 123px;
-  margin-bottom: 36px; }
-.works-title p {
-  font-size: 15px;
-  letter-spacing: 1px;
-  line-height: 22px;
-  color: #212121;
-  font-family: "Open Sans";
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 130px; }
+3:   justify-content: center;
+4: }
+5: 
+6: .works-title {
+7: 	h2 {
+8:     @include headTitle;
+9:   }
+10: 
+11:   p {
+12:      @include headText
+13:   }
 
-.works-buttons {
-  margin-bottom: 112px;
-  justify-content: center;
-  display: flex; }
-  .works-buttons button {
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 22px;
-    color: #212121;
-    font-family: "Open Sans";
-    font-weight: 600;
-    text-align: center;
-    width: 175px;
-    height: 55px;
-    border: 2px solid #0d897b;
-    background-color: transparent;
-    margin: 10px; }
-  .works-buttons button:hover {
-    color: #ffffff;
-    background-color: #0d897b; }
-
-.work-button {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
-
-.example-item {
-  margin: 15px;
-  height: 370px;
-  min-width: 370px;
-  position: relative;
-  padding: 0; }
-  .example-item img {
-    z-index: 1; }
-  .example-item p {
-    display: none; }
-
-.example-item:hover {
-  background-color: #212121;
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-  .example-item:hover img {
-    opacity: 0.2; }
-  .example-item:hover p {
-    display: block;
-    color: #ffffff;
-    position: absolute;
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 22px;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-weight: 600;
-    text-align: center;
-    z-index: 3; }
-  .example-item:hover p:last-child {
-    top: 55%; }
-
-.view-all {
-  width: 220px;
-  height: 70px;
-  background-color: #00897b;
-  font-size: 20px;
-  letter-spacing: 1px;
-  line-height: 22px;
-  color: #ffffff;
-  font-family: "Roboto";
-  font-weight: 700;
-  text-align: center;
-  margin-top: 135px;
-  margin-bottom: 135px; }
-
-/*# sourceMappingURL=latestworks.css.map */
+Backtrace:
+app/sass/latestworks.scss:8:in `headTitle'
+app/sass/latestworks.scss:8
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `block in with_mixin'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `with_mixin'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:168:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:188:in `visit_root'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:159:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:331:in `block in watch'
+/usr/lib/ruby/vendor_ruby/listen/event/config.rb:23:in `call'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:115:in `_process_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:19:in `block in loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:84:in `_wait_for_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:42:in `block in setup'
+/usr/lib/ruby/vendor_ruby/listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'headTitle'.\A         on line 8 of app/sass/latestworks.scss, in `headTitle'\A         from line 8 of app/sass/latestworks.scss\A \A 3:   justify-content: center;\A 4: }\A 5: \A 6: .works-title {\A 7: 	h2 {\A 8:     @include headTitle;\A 9:   }\A 10: \A 11:   p {\A 12:      @include headText\A 13:   }"; }

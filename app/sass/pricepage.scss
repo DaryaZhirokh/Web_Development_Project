@@ -1,0 +1,126 @@
+.price-page-container {
+  background-color: #f0f0f0;
+}
+
+.head {
+	 h2 {
+    @include headTitle;
+  }
+
+  p {
+     @include headText;
+  }
+}
+
+.canvas-container {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  height: 210px;
+  background-color: #ffffff;
+  width: 370px;
+  position: absolute;
+}
+
+.price-offer {
+  min-width: 370px;
+  height: 668px;
+  background-color: #ffffff;
+  position: relative;
+  margin: 15px;
+  padding: 0;
+}
+
+.free-trial{
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+}
+
+.price-per-month {
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 44%;
+
+  span {
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+  }
+}
+.dollar {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 42%;
+  left: 27%;
+}
+
+.prices {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+
+  p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  button {
+    width: 180px;
+    height: 60px;
+    border: 2px solid #000000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    background-color: #FFF;
+    margin-top: 65px;
+  }
+
+  button:hover {
+    width: 180px;
+    height: 60px;
+    background-color: #00897b;
+    color: #FFF;
+    border: 2px solid #FFF;
+  }
+}
+
+.price-cards {
+  padding-bottom: 125px;
+  background-color: #f0f0f0;
+}

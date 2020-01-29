@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'headTitle'.
-        on line 17 of app/sass/services.scss, in `headTitle'
-        from line 17 of app/sass/services.scss
+        on line 7 of app/sass/pricepage.scss, in `headTitle'
+        from line 7 of app/sass/pricepage.scss
 
-12: 	.row:last-child {
-13: 		margin-bottom: 125px;
-14: 	}
-15: 
-16: 	h2 {
-17:     @include headTitle;
-18:   }
-19: 
-20:   p {
-21:      @include headText
-22:   }
+2:   background-color: #f0f0f0;
+3: }
+4: 
+5: .head {
+6: 	 h2 {
+7:     @include headTitle;
+8:   }
+9: 
+10:   p {
+11:      @include headText;
+12:   }
 
 Backtrace:
-app/sass/services.scss:17:in `headTitle'
-app/sass/services.scss:17
+app/sass/pricepage.scss:7:in `headTitle'
+app/sass/pricepage.scss:7
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `block in with_mixin'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
@@ -84,4 +84,4 @@ app/sass/services.scss:17
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'headTitle'.\A         on line 17 of app/sass/services.scss, in `headTitle'\A         from line 17 of app/sass/services.scss\A \A 12: 	.row:last-child {\A 13: 		margin-bottom: 125px;\A 14: 	}\A 15: \A 16: 	h2 {\A 17:     @include headTitle;\A 18:   }\A 19: \A 20:   p {\A 21:      @include headText\A 22:   }"; }
+  content: "Error: Undefined mixin 'headTitle'.\A         on line 7 of app/sass/pricepage.scss, in `headTitle'\A         from line 7 of app/sass/pricepage.scss\A \A 2:   background-color: #f0f0f0;\A 3: }\A 4: \A 5: .head {\A 6: 	 h2 {\A 7:     @include headTitle;\A 8:   }\A 9: \A 10:   p {\A 11:      @include headText;\A 12:   }"; }

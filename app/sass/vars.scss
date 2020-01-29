@@ -1,0 +1,21 @@
+@mixin headTitle {
+		font-size: 30px;
+		letter-spacing: 2px;
+		line-height: 22px;
+		color: #212121;
+		font-family: "Open Sans";
+		font-weight: 700;
+		text-align: center;
+		margin-top: 126px;
+		margin-bottom: 37px;
+}
+
+@mixin headText {
+		font-size: 15px;
+		letter-spacing: 1px;
+		line-height: 22px;
+		color: #212121;
+		font-family: "Open Sans";
+		font-weight: 400;
+		text-align: center;
+}
