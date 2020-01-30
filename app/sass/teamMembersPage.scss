@@ -1,0 +1,107 @@
+.team-name {
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-family: "Open Sans";
+	font-weight: 600;
+	text-align: center;
+}
+
+.team-position {
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-family: "Open Sans";
+	font-weight: 400;
+	text-align: center;
+}
+
+
+.carussel-item, .persons {
+	width: 370px;
+	height: 320px;
+	border-radius: 5%;
+	margin: 15px;
+}
+
+.carousel-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.facebook {
+	background-image: url("../../images/facebook.svg");
+	width: 35px;
+	height: 35px;
+}
+
+.twitter {
+	background-image: url("../../images/twitter(green).svg");
+	width: 35px;
+	height: 35px;
+}
+
+.sms {
+	background-image: url("../../images/chatgreen.svg");
+	width: 35px;
+	height: 35px;
+}
+
+.dribbble {
+	background-image: url("../../images/dribbble(green).svg");
+	width: 35px;
+	height: 35px;
+	z-index: 3;
+}
+
+.messandgers {
+	display: flex;
+  justify-content: space-evenly;
+}
+
+.messanger {
+	width: 50px;
+	height: 50px;
+	background-color: #f0f1f1;
+  border-radius: 10px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 125px;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+.carousel-indicators {
+	position: unset;
+	margin-top: 600px;
+	margin-bottom: 125px;
+
+}
+
+.carousel-indicators li {
+	width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #0d897b;
+	position: static;
+}
+
+.carousel-indicators .active {
+	background-color: #3949ab;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+	display: flex;
+	height: 100%;
+}
+
+#carouselExampleIndicators {
+	height: 100%;
+}
