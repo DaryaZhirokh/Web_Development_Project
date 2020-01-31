@@ -19,3 +19,34 @@
 		font-weight: 400;
 		text-align: center;
 }
+
+@mixin blogTitle {
+	font-size: 25px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-family: "Open Sans";
+	font-weight: 600;
+	text-align: left;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+@mixin blogDate {
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-family: "Open Sans";
+	font-weight: 600;
+}
+
+@mixin blogText {
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #212121;
+	font-family: "Open Sans";
+	font-weight: 400;
+	margin-top: 30px;
+}
