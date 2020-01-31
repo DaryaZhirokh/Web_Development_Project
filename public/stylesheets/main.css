@@ -628,4 +628,112 @@ h2 {
   margin-top: 125px;
   margin-bottom: 125px; }
 
+.contacts-title {
+  flex-direction: column; }
+  .contacts-title h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 126px;
+    margin-bottom: 37px;
+    color: #FFF; }
+  .contacts-title p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    color: #FFF; }
+
+.contacts-info {
+  margin-bottom: 85px; }
+
+.contacts-container {
+  background-image: url(../../images/contactUs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1; }
+
+.contacts-round {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-color: #3949ab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px; }
+  .contacts-round img {
+    width: 65px;
+    height: 65px; }
+
+.contacts-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px; }
+  .contacts-item p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center; }
+
+.name-field {
+  margin-right: 30px; }
+
+.e-mail-field, .name-field {
+  margin-bottom: 30px;
+  width: 95%;
+  height: 80px;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  color: #4d4d4d;
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding-left: 20px; }
+
+.contacts-message {
+  width: 97%;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  color: #4d4d4d;
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding-left: 20px;
+  padding-top: 40px; }
+
+.butt {
+  width: 220px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: 700;
+  text-align: center; }
+
+.contact-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 100px; }
+
 /*# sourceMappingURL=main.css.map */
